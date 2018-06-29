@@ -255,3 +255,14 @@ Body:----------zh-cn--
    
 <!--#include virtual="include/bottom.html" --> 
 ----------zh-cn--
+
+Content-language: zh-tw
+Content-type: text/html; charset=UTF-8
+Body:----------zh-tw--
+<!--#set var="TITLE" value="請求超時！"
+--><!--#include virtual="include/top.html" -->
+
+    由於瀏覽器沒有在指定的時間內完成請求的傳送，伺服器關閉了連線。
+   
+<!--#include virtual="include/bottom.html" --> 
+----------zh-tw--
