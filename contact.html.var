@@ -142,5 +142,5 @@ Body:----------zh-cn--
 Content-language: zh-tw
 Content-type: text/html; charset=UTF-8
 Body:----------zh-tw--
-如果您認為這是一個伺服器錯誤，請聯繫<a href="mailto:<!--#echo encoding="url" var="SERVER_ADMIN" -->">伺服器管理者</a>。
+如果您認為這是一個伺服器錯誤，請聯繫<a href="mailto:<!--#echo encoding="url" var="SERVER_ADMIN" -->">網站管理員</a>。
 ----------zh-tw--

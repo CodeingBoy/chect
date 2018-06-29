@@ -516,7 +516,7 @@ Body:----------zh-tw--
 <!--#set var="TITLE" value="資源不再可用！"
 --><!--#include virtual="include/top.html" -->
 
-    請求的 URL 在本伺服器上不再可用，並且沒有設置轉發的地址。
+    您請求的 URL 在此伺服器上不再可用，且沒有設置轉發的位址。
   
   <!--#if expr="-n v('HTTP_REFERER')" -->
   

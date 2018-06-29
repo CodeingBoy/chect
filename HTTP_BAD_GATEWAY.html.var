@@ -358,7 +358,7 @@ Body:----------zh-tw--
 <!--#set var="TITLE" value="閘道器錯誤！"
 --><!--#include virtual="include/top.html" -->
 
-    代理伺服器從上遊的伺服器接收到了無效的響應。
+    代理伺服器從上遊伺服器收到了無效的響應。
 
   <!--#if expr="-n v('REDIRECT_ERROR_NOTES')" -->
     <!--#include virtual="include/spacer.html" -->

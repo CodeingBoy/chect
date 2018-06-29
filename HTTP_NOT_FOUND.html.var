@@ -504,7 +504,7 @@ Body:----------zh-cn--
 
   <!--#else -->
 
-    如果您是手动输入的网址，请检查拼写并重试。
+    如果您是手动输入的 URL ，请检查拼写并重试。
 
   <!--#endif -->
 
@@ -517,16 +517,16 @@ Body:----------zh-tw--
 <!--#set var="TITLE" value="找不到物件！"
 --><!--#include virtual="include/top.html" -->
 
-    在伺服器上找不到請求的 URL。
+    您請求的 URL 在該伺服器上未找到。
 
   <!--#if expr="-n v('HTTP_REFERER')" -->
 
-    在<a href="<!--#echo encoding="url" var="HTTP_REFERER" -->">來源頁面</a>上的連結可能有誤或已過期。
+    您的<a href="<!--#echo encoding="url" var="HTTP_REFERER" -->">來源頁面</a>上的連結可能出錯或過期。
     請將錯誤通知給<a href="<!--#echo encoding="url" var="HTTP_REFERER" -->">該來源頁面</a>的作者。
 
   <!--#else -->
 
-    如果您是手工輸入 URL 的，請檢查您的輸入並再試一次。
+    如果您是手動輸入的 URL ，請檢查拼寫並重試。
 
   <!--#endif -->
 

@@ -243,10 +243,10 @@ Body:----------zh-cn--
 Content-language: zh-tw
 Content-type: text/html; charset=UTF-8
 Body:----------zh-tw--
-<!--#set var="TITLE" value="無法處理請求！"
+<!--#set var="TITLE" value="無法執行請求！"
 --><!--#include virtual="include/top.html" -->
 
-    伺服器不支持瀏覽器請求的動作。
+    伺服器不支援瀏覽器請求的動作。
    
 <!--#include virtual="include/bottom.html" -->
 ----------zh-tw--

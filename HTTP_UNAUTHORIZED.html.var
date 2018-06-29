@@ -410,12 +410,12 @@ Body:----------zh-tw--
 <!--#set var="TITLE" value="需要認證！"
 --><!--#include virtual="include/top.html" -->
 
-    伺服器無法驗證您被授權訪問 URL "<!--#echo encoding="url" var="REDIRECT_URL" -->"。
-    這可能是因為您提供了錯誤的憑據（如，錯誤的密碼），或您的瀏覽器不知道如何提供必需的憑據。
+    此伺服器無法驗證您是否有權訪問 URL "<!--#echo encoding="url" var="REDIRECT_URL" -->"。
+    可能由於您提供了錯誤的憑據（例如，錯誤的密碼），或您的瀏覽器不知道如何提供所需的憑據。
 
   <!--#include virtual="include/spacer.html" -->
 
-    如果您確信您具有訪問該文檔的權限，請檢查您的用戶 ID 和密碼，並再試一次。
+    如果您有權訪問該文檔，請檢查您的使用者名和密碼並重試。
 
 <!--#include virtual="include/bottom.html" -->
 ----------zh-tw--
