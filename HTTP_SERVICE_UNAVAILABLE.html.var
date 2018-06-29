@@ -260,3 +260,14 @@ Body:----------tr--
 
 <!--#include virtual="include/bottom.html" -->
 ----------tr--
+
+Content-language: zh-cn
+Content-type: text/html; charset=UTF-8
+Body:----------zh-cn--
+<!--#set var="TITLE" value="服务不可用！"
+--><!--#include virtual="include/top.html" -->
+
+    由于维护停机或容量问题，服务器暂时无法处理您的请求。请稍后再试。
+
+<!--#include virtual="include/bottom.html" -->
+----------zh-cn--

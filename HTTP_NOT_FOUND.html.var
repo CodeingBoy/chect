@@ -488,3 +488,25 @@ Body:----------tr--
 
 <!--#include virtual="include/bottom.html" -->
 ----------tr--
+
+Content-language: zh-cn
+Content-type: text/html; charset=UTF-8
+Body:----------zh-cn--
+<!--#set var="TITLE" value="找不到对象！"
+--><!--#include virtual="include/top.html" -->
+
+    您请求的网址在该服务器上未找到。
+
+  <!--#if expr="-n v('HTTP_REFERER')" -->
+
+    此<a href="<!--#echo encoding="url" var="HTTP_REFERER" -->">引用页面</a>上的链接可能出错或过期。
+    请将这个错误提醒给<a href="<!--#echo encoding="url" var="HTTP_REFERER" -->">该页面</a>的作者。
+
+  <!--#else -->
+
+    如果您是手动输入的网址，请检查拼写并重试。
+
+  <!--#endif -->
+
+<!--#include virtual="include/bottom.html" -->
+----------zh-cn--

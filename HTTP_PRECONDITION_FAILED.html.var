@@ -231,3 +231,14 @@ Body:----------tr--
 
 <!--#include virtual="include/bottom.html" -->
 ----------tr--
+
+Content-language: zh-cn
+Content-type: text/html; charset=UTF-8
+Body:----------zh-cn--
+<!--#set var="TITLE" value="前提失败！"
+--><!--#include virtual="include/top.html" -->
+
+    请求URL的前提条件未能得到正面评价。
+  
+<!--#include virtual="include/bottom.html" -->
+----------zh-cn--

@@ -245,3 +245,14 @@ Body:----------tr--
 
 <!--#include virtual="include/bottom.html" -->
 ----------tr--
+
+Content-language: zh-cn
+Content-type: text/html; charset=UTF-8
+Body:----------zh-cn--
+<!--#set var="TITLE" value="提交的网址过长！"
+--><!--#include virtual="include/top.html" -->
+
+    请求的URL的长度超过此服务器的容量限制。该请求无法处理。
+   
+<!--#include virtual="include/bottom.html" -->
+----------zh-cn--

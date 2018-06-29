@@ -252,3 +252,14 @@ Body:----------tr--
 
 <!--#include virtual="include/bottom.html" -->
 ----------tr--
+
+Content-language: zh-cn
+Content-type: text/html; charset=UTF-8
+Body:----------zh-cn--
+<!--#set var="TITLE" value="变体有变!"
+--><!--#include virtual="include/top.html" -->
+
+    被请求实体的变体本身就是一种可协商的资源。不可用于访问。
+
+<!--#include virtual="include/bottom.html" -->
+----------zh-cn--

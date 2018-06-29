@@ -387,3 +387,19 @@ Body:----------tr--
 
 <!--#include virtual="include/bottom.html" -->
 ----------tr--
+
+Content-language: zh-cn
+Content-type: text/html; charset=UTF-8
+Body:----------zh-cn--
+<!--#set var="TITLE" value="需要认证！"
+--><!--#include virtual="include/top.html" -->
+
+    此服务器无法验证您是否有权访问"<!--#echo encoding="url" var="REDIRECT_URL" -->"。
+    您提供了错误的凭据（例如，错误的密码），或者您的浏览器不知道如何提供所需的凭据。
+
+  <!--#include virtual="include/spacer.html" -->
+
+    如果您被允许请求该文档，请检查您的用户名和密码，然后重试。
+
+<!--#include virtual="include/bottom.html" -->
+----------zh-cn--

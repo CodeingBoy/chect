@@ -430,3 +430,24 @@ Body:----------tr--
 
 <!--#include virtual="include/bottom.html" -->
 ----------tr--
+
+Content-language: zh-cn
+Content-type: text/html; charset=UTF-8
+Body:----------zh-cn--
+<!--#set var="TITLE" value="禁止访问！"
+--><!--#include virtual="include/top.html" -->
+
+  <!--#if expr="v('REDIRECT_URL') =~ m:/$:" -->
+
+    您无权访问所请求的目录。
+    这是由于没有主页或目录存在读保护导致的。
+
+  <!--#else -->
+
+    您无权访问所请求的对象。
+    它可能存在读保护或无法被服务器读取。
+
+  <!--#endif -->
+
+<!--#include virtual="include/bottom.html" -->
+----------zh-cn--

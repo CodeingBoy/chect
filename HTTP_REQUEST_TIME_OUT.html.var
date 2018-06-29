@@ -244,3 +244,14 @@ Body:----------tr--
 
 <!--#include virtual="include/bottom.html" --> 
 ----------tr--
+
+Content-language: zh-cn
+Content-type: text/html; charset=UTF-8
+Body:----------zh-cn--
+<!--#set var="TITLE" value="请求超时！"
+--><!--#include virtual="include/top.html" -->
+
+    由于浏览器未在指定时间内完成请求，服务器关闭了网络连接。
+   
+<!--#include virtual="include/bottom.html" --> 
+----------zh-cn--

@@ -488,3 +488,24 @@ Body:----------tr--
   
 <!--#include virtual="include/bottom.html" --> 
 ----------tr--
+
+Content-language: zh-cn
+Content-type: text/html; charset=UTF-8
+Body:----------zh-cn--
+<!--#set var="TITLE" value="资源已不可用！"
+--><!--#include virtual="include/top.html" -->
+
+    您请求的网址在此服务器上不再可用，并且没有转发地址。
+  
+  <!--#if expr="-n v('HTTP_REFERER')" -->
+  
+    请通知<a href="<!--#echo encoding="url" var="HTTP_REFERER" -->">引用页面</a>的作者，该链接已过时。
+   
+  <!--#else -->
+  
+    如果您跟随的是一个外来页面的链接，请联系该页面的作者。
+   
+  <!--#endif -->
+  
+<!--#include virtual="include/bottom.html" --> 
+----------zh-cn--

@@ -524,3 +524,27 @@ Body:----------tr--
 
 <!--#include virtual="include/bottom.html" -->
 ----------tr--
+
+Content-language: zh-cn
+Content-type: text/html; charset=UTF-8
+Body:----------zh-cn--
+<!--#set var="TITLE" value="服务器故障！"
+--><!--#include virtual="include/top.html" -->
+
+  <!--#if expr="-n v('REDIRECT_ERROR_NOTES')" -->
+
+    服务器遇到了内部故障，无法继续完成您的请求。
+
+    <!--#include virtual="include/spacer.html" -->
+
+    错误信息：
+    <br /><!--#echo encoding="none" var="REDIRECT_ERROR_NOTES" -->
+
+  <!--#else -->
+
+    服务器遇到了内部故障，无法完成您的请求。可能由于服务器过载或在CGI脚本中出错。
+
+  <!--#endif -->
+
+<!--#include virtual="include/bottom.html" -->
+----------zh-cn--

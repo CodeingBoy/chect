@@ -226,3 +226,14 @@ Body:----------tr--
 
 <!--#include virtual="include/bottom.html" -->
 ----------tr--
+
+Content-language: zh-cn
+Content-type: text/html; charset=UTF-8
+Body:----------zh-cn--
+<!--#set var="TITLE" value="不支持的媒体类型！"
+--><!--#include virtual="include/top.html" -->
+
+    服务器不支持在该请求中传输的媒体类型。
+
+<!--#include virtual="include/bottom.html" -->
+----------zh-cn--

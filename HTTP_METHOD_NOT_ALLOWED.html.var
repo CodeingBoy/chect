@@ -241,3 +241,14 @@ Body:----------tr--
     
 <!--#include virtual="include/bottom.html" -->
 ----------tr--
+
+Content-language: zh-cn
+Content-type: text/html; charset=UTF-8
+Body:----------zh-cn--
+<!--#set var="TITLE" value="不允许的方法！"
+--><!--#include virtual="include/top.html" -->
+
+    <!--#echo var="REDIRECT_REQUEST_METHOD" -->方法对该请求网址是不允许的。
+    
+<!--#include virtual="include/bottom.html" -->
+----------zh-cn--
