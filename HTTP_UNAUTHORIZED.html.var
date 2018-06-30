@@ -395,7 +395,7 @@ Body:----------zh-cn--
 --><!--#include virtual="include/top.html" -->
 
     此服务器无法验证您是否有权访问 URL "<!--#echo encoding="url" var="REDIRECT_URL" -->"。
-    可能由于您提供了错误的凭据（例如，错误的密码），或您的浏览器不知道如何提供所需的凭据。
+    这可能是因为您提供了错误的凭据（例如，错误的密码），或您的浏览器不知道如何提供所需的凭据。
 
   <!--#include virtual="include/spacer.html" -->
 
@@ -411,7 +411,7 @@ Body:----------zh-tw--
 --><!--#include virtual="include/top.html" -->
 
     此伺服器無法驗證您是否有權訪問 URL "<!--#echo encoding="url" var="REDIRECT_URL" -->"。
-    可能由於您提供了錯誤的憑據（例如，錯誤的密碼），或您的瀏覽器不知道如何提供所需的憑據。
+    這可能是由於您提供了錯誤的憑據（例如，錯誤的密碼），或您的瀏覽器不知道如何提供所需的憑據。
 
   <!--#include virtual="include/spacer.html" -->
 
