@@ -499,7 +499,7 @@ Body:----------zh-cn--
   
   <!--#if expr="-n v('HTTP_REFERER')" -->
   
-    请通知<a href="<!--#echo encoding="url" var="HTTP_REFERER" -->">来源页面</a>的作者，该链接已过期。
+    请通知<a href="<!--#echo encoding="url" var="HTTP_REFERER" -->">来源页面</a>的作者该链接已过期。
    
   <!--#else -->
   
