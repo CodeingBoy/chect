@@ -520,7 +520,7 @@ Body:----------zh-tw--
   
   <!--#if expr="-n v('HTTP_REFERER')" -->
   
-    請通知<a href="<!--#echo encoding="url" var="HTTP_REFERER" -->">來源頁面</a>的作者該連結已過期。
+    請通知<a href="<!--#echo encoding="url" var="HTTP_REFERER" -->">來源頁面</a>的作者，該連結已過期。
    
   <!--#else -->
   
